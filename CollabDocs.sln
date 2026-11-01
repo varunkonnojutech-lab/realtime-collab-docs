@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70EEEEC1-5520-4145-9BAC-C79CA4FCA117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabDocs.Api", "src\CollabDocs.Api\CollabDocs.Api.csproj", "{A6AE8E66-C7EA-4935-A2A8-09BE5DD32D32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F61BB71B-53BC-401A-8779-85D2A030C146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabDocs.Tests", "tests\CollabDocs.Tests\CollabDocs.Tests.csproj", "{F7E044E4-760F-43AB-8C35-A16BBE4C5B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6AE8E66-C7EA-4935-A2A8-09BE5DD32D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AE8E66-C7EA-4935-A2A8-09BE5DD32D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AE8E66-C7EA-4935-A2A8-09BE5DD32D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AE8E66-C7EA-4935-A2A8-09BE5DD32D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E044E4-760F-43AB-8C35-A16BBE4C5B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E044E4-760F-43AB-8C35-A16BBE4C5B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E044E4-760F-43AB-8C35-A16BBE4C5B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E044E4-760F-43AB-8C35-A16BBE4C5B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6AE8E66-C7EA-4935-A2A8-09BE5DD32D32} = {70EEEEC1-5520-4145-9BAC-C79CA4FCA117}
+		{F7E044E4-760F-43AB-8C35-A16BBE4C5B73} = {F61BB71B-53BC-401A-8779-85D2A030C146}
+	EndGlobalSection
+EndGlobal
